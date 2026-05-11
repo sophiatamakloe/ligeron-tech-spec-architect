@@ -83,6 +83,14 @@ The system is NOT intended for:
 
 Human review is required before implementation.
 
+Good outputs were defined as responses that:
+- matched the stated engineering constraints
+- produced logically organized recommendations
+- identified relevant technical tradeoffs
+- included meaningful engineering risk considerations
+- maintained consistent structured formatting
+
+
 ---
 
 ## Baseline Comparison
