@@ -171,3 +171,16 @@ GOOGLE_API_KEY=your_api_key_here
 The application uses the Google Gemini API for structured technical recommendation generation.
 
 If the API is unavailable or quota limits are reached, the system automatically switches to fallback demonstration mode for evaluation purposes.
+
+## Usage Example
+
+Run the application:
+
+```bash
+streamlit run app.py
+
+Example Prompt:
+
+I need a 660nm LED array that draws less than 20mA for a portable light-therapy patch.
+
+
