@@ -154,7 +154,7 @@ Sophia Tamakloe
 Johns Hopkins University — MSAI
 ---
 
-## Installation Instructions
+## Installation 
 
 ### Clone Repository
 ```bash
