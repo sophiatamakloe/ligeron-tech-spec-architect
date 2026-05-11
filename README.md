@@ -115,6 +115,7 @@ AI-assisted workflow advantages:
 - AI cannot guarantee regulatory compliance
 - Technical validation is still required
 
+Failure cases included incomplete constraint interpretation, overly broad component recommendations, and potential hallucinated engineering assumptions.
 ---
 
 ## Installation
