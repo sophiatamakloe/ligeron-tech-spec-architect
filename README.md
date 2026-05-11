@@ -1,64 +1,147 @@
-# Ligeron Tech-Spec Architect
+# Ligeron Tech Spec Architect
 
 ## Overview
-Ligeron Tech-Spec Architect is an AI-assisted workflow prototype designed to help wearable hardware teams rapidly translate natural-language engineering intent into structured technical specification recommendations.
 
-The application demonstrates how generative AI workflows can support early-stage hardware planning, component screening, and product requirement drafting for wearable technology systems.
+Ligeron Tech Spec Architect is a focused GenAI workflow prototype that converts natural-language wearable hardware design intent into structured technical specification recommendations.
 
-This prototype focuses on improving the speed and structure of early R&D specification workflows while maintaining a human-in-the-loop review process.
+The tool is designed for early-stage R&D hardware teams, product strategists, and engineering teams exploring rapid component screening and technical planning workflows.
 
----
+This prototype demonstrates how generative AI can assist with:
 
-## Problem Statement
-Early-stage wearable hardware specification drafting is often slow, fragmented, and highly manual. Engineers and product designers must review multiple component categories, technical constraints, and risk considerations before beginning prototyping.
-
-This project explores how AI-assisted workflows can accelerate:
-- Requirement interpretation
-- Initial component recommendation
+- Hardware component recommendation
 - Constraint analysis
-- Risk awareness
-- Technical planning structure
+- Technical reasoning
+- Risk identification
+- Human review escalation
 
 ---
 
-## Features
-- Natural-language engineering input
-- Structured wearable hardware component recommendations
-- Constraint matching analysis
-- Risk flag generation
-- Interactive Streamlit interface
-- Human-review safety messaging
+## Example Use Case
+
+Input:
+
+> “I need a 660nm LED array that draws less than 20mA for a portable light-therapy patch.”
+
+Generated Output Includes:
+
+- Recommended component types
+- Constraint matching
+- Technical reasoning
+- Engineering tradeoffs
+- Risk flags
+- Human review warnings
 
 ---
 
-## Example Workflow
+## Workflow Architecture
 
-### User Input
-“I need a 660nm LED array that draws less than 20mA for a portable light-therapy patch.”
+User Intent → Prompt Structuring → Gemini API → Structured Technical Recommendation Output
 
-### Generated Output
-- Recommended optical components
-- Suggested power-control hardware
-- Mechanical/electrical integration considerations
-- Constraint match evaluation
-- Risk review guidance
+The application uses:
+
+- Streamlit (UI)
+- Google Gemini API
+- Python
+- Prompt engineering workflow design
 
 ---
 
-## Tech Stack
+## Key Features
+
+- Natural-language hardware design input
+- AI-generated structured technical specs
+- Constraint-aware reasoning
+- Engineering risk flag generation
+- Human review requirement layer
+- Lightweight interactive UI
+
+---
+
+## Evaluation Approach
+
+The workflow was tested using realistic wearable hardware design prompts involving:
+
+- LED wavelength constraints
+- Battery limitations
+- Form-factor restrictions
+- Thermal considerations
+- Low-power wearable systems
+
+The system performed well for:
+
+- Early-stage architecture recommendations
+- Structured planning outputs
+- Technical brainstorming support
+
+The system is NOT intended for:
+
+- Final engineering validation
+- Procurement decisions
+- Regulatory certification
+- Medical-device approval
+
+Human review is required before implementation.
+
+---
+
+## Baseline Comparison
+
+Baseline approach:
+- Manual internet research
+- Spreadsheet-based component tracking
+- Unstructured brainstorming
+
+AI-assisted workflow advantages:
+- Faster structured outputs
+- Immediate technical organization
+- Integrated risk considerations
+- More consistent documentation format
+
+---
+
+## Limitations
+
+- Outputs may contain inaccuracies or hallucinations
+- Recommendations should not replace certified engineering review
+- AI cannot guarantee regulatory compliance
+- Technical validation is still required
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/sophiatamakloe/ligeron-tech-spec-architect.git
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run locally:
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## Technologies Used
+
 - Python
 - Streamlit
-- Pandas
+- Google Gemini API
 
 ---
 
-## Project Architecture
-1. User enters wearable hardware design intent
-2. Application processes the request
-3. Structured component recommendations are generated
-4. Constraint analysis and risk considerations are displayed
-5. Human review remains required before engineering implementation
+## Author
 
+Sophia Tamakloe
+Johns Hopkins University — MSAI
 ---
 
 ## Installation Instructions
