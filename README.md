@@ -150,3 +150,16 @@ Johns Hopkins University — MSAI
 ### Clone Repository
 ```bash
 git clone https://github.com/sophiatamakloe/ligeron-tech-spec-architect.git
+## Demo Screenshots
+
+### Live Gemini-Generated Technical Recommendation
+
+![Live Gemini Output](screenshots/live_gemini_output.png)
+
+---
+
+### Reliability Fallback Mode
+
+When Gemini API quota or availability issues occur, the system automatically switches to a structured fallback demo mode for uninterrupted evaluation.
+
+![Fallback Mode](screenshots/fallback_mode.png)
