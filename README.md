@@ -154,24 +154,20 @@ git clone https://github.com/sophiatamakloe/ligeron-tech-spec-architect.git
 
 ### Live Gemini-Generated Technical Recommendation
 
-![Live Gemini Output](screenshots/live_gemini_output.png)
-
----
-
-### Reliability Fallback Mode
-
-When Gemini API quota or availability issues occur, the system automatically switches to a structured fallback demo mode for uninterrupted evaluation.
-
-![Fallback Mode](screenshots/fallback_mode.png)
-
----
-
-## Demo Screenshots
-
-### Live Gemini-Generated Technical Recommendation
-
 ![Live Gemini Output](live_gemini_output.png)
 
 ### Fallback Demonstration Mode
 
 ![Fallback Mode](fallback_mode.png)
+
+### API Key Setup
+
+Create a `.env` file in the project directory and add:
+
+```bash
+GOOGLE_API_KEY=your_api_key_here
+```
+
+The application uses the Google Gemini API for structured technical recommendation generation.
+
+If the API is unavailable or quota limits are reached, the system automatically switches to fallback demonstration mode for evaluation purposes.
