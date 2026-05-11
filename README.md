@@ -43,6 +43,7 @@ The application uses:
 - Google Gemini API
 - Python
 - Prompt engineering workflow design
+The system also includes a fallback demonstration mode when Gemini API quota or availability limitations occur, allowing uninterrupted workflow evaluation.
 
 ---
 
