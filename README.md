@@ -163,3 +163,15 @@ git clone https://github.com/sophiatamakloe/ligeron-tech-spec-architect.git
 When Gemini API quota or availability issues occur, the system automatically switches to a structured fallback demo mode for uninterrupted evaluation.
 
 ![Fallback Mode](screenshots/fallback_mode.png)
+
+---
+
+## Demo Screenshots
+
+### Live Gemini-Generated Technical Recommendation
+
+![Live Gemini Output](live_gemini_output.png)
+
+### Fallback Demonstration Mode
+
+![Fallback Mode](fallback_mode.png)
